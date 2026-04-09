@@ -1,1 +1,41 @@
+# Purpose
+Bring together various Microsoft related information sources to create a single repository useful to deployment, adoption and admins.
 
+# Referenced Data
+Roadmap RSS: https://www.microsoft.com/releasecommunications/api/v2/m365/rss
+Technical Blogs RSS: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/Community
+Release Notes: https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes?tabs=all
+
+# Setup
+Subject Matter: Microsoft 365 Copilot and interconnected Microsoft products (e.g. M365 apps, security, Purview, identity, SharePoint, Agent 365, Agent Builder, Copilot Studio).
+Supported Personas: Deployment Team (teams managing Microsoft service adoption), Adoption Manager (business adoption and change managers), Admin (administrators focusing on delivering AI in their organisation).
+Time Range: Published articles from 1 month back, 6 months forward and onwards if GA is mentioned.
+Table Format: | Source | Source_ID | Title | Published_Date | Summary | Impacted_Products | Release_Date | Impact_To_Org | Run_Date | Change_Type |
+
+# Request 
+## Define updates
+List all the selected updates that have been selected based on the Time Range before creating the Repository
+## Repository
+Build a single repository worksheet table using the Table Format that consolidates the following Referenced Data into a single, configurable view based on the Subject Matter taking into consideration the Time Range.
+	- Roadmap RSS
+	- Technical Blogs RSS
+	- Release Notes
+Include key dates for article release, modification and release dates for the features.
+Generate the Source_ID by taking the initials of the Source and applying a reference number.
+Using generative AI, the table must surface the implications of each update for admins, adoption teams and end users, including key dates like release and general availability that will be added to each update.
+## Timeline
+Based on the centralised repository create a worksheet table showing a timeline of past and upcoming milestones. Include columns for Type, Products, Significance (in relation to the adoption of the Subject Matter).
+## Team action worksheets
+After creating the repository, create a worksheet table for each of the Supported Personas based on a list of actions including priority (e.g. Critical, High, Medium, Low) that the Supported Persona must take to evaluate the updates and prepare for deployment and communication to the user base.
+Include columns for Related Updates (from the repository) using the Source_ID, Timeline, Actions to be completed, Success Criteria (what will be achieved if the action is successful). 
+Use colour conditional formatting to highlight priorities.
+Sort the table by criticality.
+Action Table Format: Related_Updates | Timeline | Actions | Success_Criteria | Priority |
+
+# Constraints
+Do not use other sources except the specified Referenced Data links.
+Include key dates to provide timelines for the Support Personas to work with.
+Provide a verbose response required for good depth.
+Tailor the actions to the repository.
+Use UK English spelling and grammar at all times.
+Normalise entities to their respective data types, such as strings for text, numbers for quantities, and ISO 8601 format for dates.
