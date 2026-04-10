@@ -1,6 +1,5 @@
-# public-prompts
-my public prompts with a microsoft copilot focus
+# Public instruction repository
+This is my public prompt and instruction set repository with a focus on Microsoft Copilot. 
 
-## whats in here
-my public facing prompts that you can copy and paste into Copilot.
-i will label the prompt as to which application it can be run from.
+## What to do?
+Copy and paste the text from the MD files into Copilot and follow any instructions in the associated README files.
